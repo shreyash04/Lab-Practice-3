@@ -1,0 +1,121 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "_ID",
+						"type": "int256"
+					},
+					{
+						"internalType": "string",
+						"name": "_fName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_lName",
+						"type": "string"
+					},
+					{
+						"internalType": "int256[2]",
+						"name": "_marks",
+						"type": "int256[2]"
+					}
+				],
+				"name": "addNewRecords",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "stdCount",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"name": "stdRecords",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "ID",
+						"type": "int256"
+					},
+					{
+						"internalType": "string",
+						"name": "fName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "lName",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"BT\\Assignment-3_BT_41378.sol": "StudentData"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"BT\\Assignment-3_BT_41378.sol": {
+			"keccak256": "0x9de59c589f878d5cc2c3dae66cbb3759fd5882cc5c61277f5aaf8623f4c80537",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d48272660847e85558a27549a939f6a59bbba85454ff83c0505146a7c7668770",
+				"dweb:/ipfs/QmTkYpxyvHWy9Pzy6Ub8KLYXFLfCyxs3pZ4haScZb4vNkb"
+			]
+		}
+	},
+	"version": 1
+}
